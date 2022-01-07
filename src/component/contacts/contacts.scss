@@ -1,0 +1,42 @@
+@import '/src/scss/vars.scss';
+
+.contacts{
+    padding: 1.5em;
+    text-align: center;
+    color: #FFF;
+    background-color: $accent;
+
+    &__inner{
+        width: 50%;
+        margin:  0 auto;
+    }
+
+    label{
+        margin-bottom: 1em;
+    }
+
+    input,button {
+        margin-bottom: 1em;
+        margin-top: 10px;
+        border: none;
+        padding: 10px 15px;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    button{
+        cursor: pointer;
+        background-color: #fff;
+        transition: all .2s ease;
+
+        &:hover{
+            background-color: lighten($accent , 20%);
+            color: #fff;
+        }
+    }
+
+    p span {
+        background-color: rgb(23, 128, 19);
+        color: #fff;
+    }
+}

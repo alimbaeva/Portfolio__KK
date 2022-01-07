@@ -12,7 +12,7 @@ function App() {
       <Menu
         items={[
           { name: 'home', link: 'intro' },
-          { name: 'portfoloi', link: 'portfoloi' },
+          { name: 'portfolio', link: 'portfolio' },
           { name: 'news', link: 'news' },
           { name: 'contacts', link: 'contacts' },
 
