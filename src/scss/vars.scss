@@ -1,0 +1,13 @@
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+$light: rgb(248, 234, 234);
+$main-color:  rgb(143, 92, 92);
+$accent:  rgb(220, 20, 60);
